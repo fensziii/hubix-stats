@@ -1,0 +1,18 @@
+{
+    "buypass"     : {
+        "test"        : "https://api.test4.buypass.no/acme/directory",
+        "prod"        : "https://api.buypass.com/acme/directory"
+    },
+    "letsencrypt" : {
+        "test"        : "https://acme-staging-v02.api.letsencrypt.org/directory",
+        "prod"        : "https://acme-v02.api.letsencrypt.org/directory"
+    },
+    "google"      : {
+        "test"        : "https://dv.acme-v02.test-api.pki.goog/directory",
+        "prod"        : "https://dv.acme-v02.api.pki.goog/directory"
+    },
+    "zerossl"     : {
+        "test"        : null,
+        "prod"        : "https://acme.zerossl.com/v2/DV90" 
+    }
+}
